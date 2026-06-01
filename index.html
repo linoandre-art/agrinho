@@ -3,92 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho 2026 - Agro Forte e Sustentável</title>
+    <title>Agro Forte & Futuro Sustentável</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="dark-theme">
 
-    <header>
-        <div class="container animate-fadeIn">
-            <div class="logo">Agrinho<span>2026</span></div>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#home">Início</a></li>
-                    <li><a href="#proposito">Propósito</a></li>
-                    <li><a href="#pilares">Pilares</a></li>
-                    <li><a href="#contato">Participe</a></li>
-                </ul>
-            </nav>
-            <button id="theme-toggle" class="btn-theme" aria-label="Alternar tema visual">🌱 Mudar Tom</button>
+    <header class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-leaf text-gradient"></i> Agro<span>Tech</span>
         </div>
+        <nav class="nav-links">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#tecnologia">Tecnologia</a>
+            <a href="#objetivo">Objetivo</a>
+        </nav>
+        <button id="theme-toggle" aria-label="Mudar tema">
+            <i class="fa-solid fa-sun"></i>
+        </button>
     </header>
 
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content animate-slideUp">
-                <h1>Agro Forte e Futuro Sustentável</h1>
-                <p>Cultivando o conhecimento hoje para colher um amanhã mais verde, tecnológico e em harmonia com a natureza.</p>
-                <a href="#proposito" class="btn-primary">Descubra o Projeto</a>
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <span class="badge">Concurso Agrinho 2026</span>
+                <h1>Agro Forte, Futuro Sustentável</h1>
+                <p>O equilíbrio perfeito entre a produção de alimentos e a preservação do meio ambiente através da tecnologia.</p>
+                <a href="#sobre" class="btn-primary">Descubra o Futuro <i class="fa-solid fa-arrow-right"></i></a>
             </div>
-        </div>
-    </section>
-
-    <section id="proposito" class="section-padding">
-        <div class="container">
-            <h2>O Que é o Agrinho 2026?</h2>
-            <p class="section-description">É uma iniciativa que une educação, criatividade e consciência ambiental. Nosso objetivo é mostrar como a tecnologia no campo e as práticas agrícolas responsáveis caminham lado a lado para garantir a segurança alimentar do planeta e a preservação dos nossos recursos naturais.</p>
-        </div>
-    </section>
-
-    <section id="pilares" class="section-padding bg-light">
-        <div class="container">
-            <h2>Nossos Pilares</h2>
-            <div class="grid-services">
-                <div class="card">
-                    <div class="icon">🚜</div>
-                    <h3>Inovação no Campo</h3>
-                    <p>O uso de drones, sensores e agricultura de precisão para produzir mais gastando menos recursos.</p>
-                </div>
-                <div class="card">
-                    <div class="icon">💧</div>
-                    <h3>Preservação</h3>
-                    <p>Cuidado com a água, proteção das matas ciliares e manejo correto do solo para evitar a erosão.</p>
-                </div>
-                <div class="card">
-                    <div class="icon">📚</div>
-                    <h3>Educação Ambiental</h3>
-                    <p>Levar o conhecimento das práticas sustentáveis da escola para o campo e do campo para a cidade.</p>
+            <div class="hero-visual">
+                <div class="tech-circle">
+                    <i class="fa-solid fa-satellite-dish"></i>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contato" class="section-padding">
-        <div class="container">
-            <h2>Faça Parte Desse Futuro</h2>
-            <form id="contact-form" class="form-container">
-                <div class="form-group">
-                    <label for="name">Nome Completo:</label>
-                    <input type="text" id="name" required placeholder="Digite seu nome">
+        <section id="sobre" class="about-section">
+            <div class="container">
+                <h2 class="section-title">Sobre o Projeto</h2>
+                <p class="section-subtitle">Uma plataforma interativa para mostrar que produzir e proteger são caminhos que andam juntos.</p>
+                <div class="about-box">
+                    <blockquote>
+                        <p>"A tecnologia faz o campo produzir mais alimentos utilizando menos recursos naturais. Isso é inteligência e sustentabilidade."</p>
+                    </blockquote>
                 </div>
-                <div class="form-group">
-                    <label for="email">E-mail de Contato:</label>
-                    <input type="email" id="email" required placeholder="seu.email@escola.com">
+            </div>
+        </section>
+
+        <section id="tecnologia" class="tech-section">
+            <div class="container">
+                <h2 class="section-title">Como a Tecnologia Afeta o Agro?</h2>
+                <p class="section-subtitle">De forma simples e prática, veja como a ciência transforma o dia a dia do produtor.</p>
+                
+                <div class="cards-grid">
+                    <div class="card">
+                        <div class="card-icon"><i class="fa-solid fa-droplet"></i></div>
+                        <h3>Economia de Água</h3>
+                        <p>Sensores conectados no solo avisam o momento exato em que a planta precisa de água, evitando desperdícios na irrigação.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fa-solid fa-helicopter"></i></div>
+                        <h3>Menos Químicos</h3>
+                        <p>Drones mapeiam a plantação em alta resolução. O produtor aplica o tratamento apenas na planta doente, e não no campo inteiro.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fa-solid fa-location-crosshairs"></i></div>
+                        <h3>Proteção do Solo</h3>
+                        <p>Tratores guiados por GPS andam no caminho milimétrico perfeito, evitando compactar a terra e prevenindo a erosão natural.</p>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="message">Compartilhe sua ideia sustentável:</label>
-                    <textarea id="message" rows="5" required placeholder="Como você acha que podemos ajudar o meio ambiente e o agro?"></textarea>
+            </div>
+        </section>
+
+        <section id="objetivo" class="target-section">
+            <div class="container target-wrapper">
+                <div class="target-text">
+                    <h2 class="section-title text-left">Nosso Objetivo</h2>
+                    <p>O grande foco deste site é educar e conscientizar as novas gerações. Queremos mostrar aos estudantes e visitantes que o futuro do planeta depende de um agro tecnológico e responsável.</p>
+                    <p class="highlight-text">Inspirando jovens a enxergarem a tecnologia como a maior ferramenta de preservação ambiental que temos hoje.</p>
                 </div>
-                <button type="submit" class="btn-submit">Enviar Ideia</button>
-            </form>
-            <div id="form-response" class="hidden"></div>
-        </div>
-    </section>
+                <div class="target-badge">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <span>Educação & Consciência</span>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2026 Agrinho. Desenvolvido para um Futuro Sustentável.</p>
-        </div>
+        <p>&copy; 2026 Concurso Agrinho. Subcategoria: Programação Front-End.</p>
+        <p>Desenvolvido com <i class="fa-solid fa-heart" style="color: #2ecc71;"></i> usando HTML, CSS e JavaScript.</p>
     </footer>
 
     <script src="script.js"></script>
