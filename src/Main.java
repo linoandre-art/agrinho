@@ -1,50 +1,50 @@
+// Aguarda o carregamento total do DOM
 document.addEventListener('DOMContentLoaded', () => {
-    
-    // --- 1. Alternador de Tema (Claro / Noturno Verde) ---
     const themeToggleBtn = document.getElementById('theme-toggle');
-    const currentTheme = localStorage.getItem('theme');
+    const bodyElement = document.body;
 
-    if (currentTheme) {
-        document.documentElement.setAttribute('data-theme', currentTheme);
-        if (currentTheme === 'dark') {
-            themeToggleBtn.textContent = '☀️ Modo Claro';
-        }
-    }
-
+    // Função para alterar o tema
     themeToggleBtn.addEventListener('click', () => {
-        let theme = document.documentElement.getAttribute('data-theme');
-        
-        if (theme === 'dark') {
-            document.documentElement.setAttribute('data-theme', 'light');
-            localStorage.setItem('theme', 'light');
-            themeToggleBtn.textContent = '🌱 Mudar Tom';
+        // Se estiver no tema escuro, muda para o claro
+        if (bodyElement.classList.contains('dark-theme')) {
+            bodyElement.classList.remove('dark-theme');
+            bodyElement.classList.add('light-theme');
+            
+            // Altera o ícone para Lua (indicando que o clique seguinte levará ao modo escuro)
+            themeToggleBtn.innerHTML = '<i class="fa-solid fa-moon"></i>';
         } else {
-            document.documentElement.setAttribute('data-theme', 'dark');
-            localStorage.setItem('theme', 'dark');
-            themeToggleBtn.textContent = '☀️ Modo Claro';
+            // Se estiver no tema claro, volta para o escuro
+            bodyElement.classList.remove('light-theme');
+            bodyElement.classList.add('dark-theme');
+            
+            // Altera o ícone para Sol
+            themeToggleBtn.innerHTML = '<i class="fa-solid fa-sun"></i>';
         }
     });
 
-    // --- 2. Envio de Ideias do Formulário ---
-    const contactForm = document.getElementById('contact-form');
-    const formResponse = document.getElementById('form-response');
+    // Efeito sutil de revelar os elementos ao rolar a página (Scroll Animation básica)
+    const cards = document.querySelectorAll('.card');
+    
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
 
-    contactForm.addEventListener('submit', (event) => {
-        event.preventDefault(); 
+    const cardObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
 
-        const name = document.getElementById('name').value.trim();
-
-        if (name) {
-            formResponse.textContent = `Parabéns, ${name}! Sua sugestão sustentável foi enviada com sucesso para a comissão do Agrinho 2026.`;
-            formResponse.className = "success"; 
-            formResponse.classList.remove('hidden');
-
-            contactForm.reset();
-
-            // Oculta o aviso de sucesso após 6 segundos
-            setTimeout(() => {
-                formResponse.classList.add('hidden');
-            }, 6000);
-        }
+    cards.forEach(card => {
+        // Configuração inicial oculta para a animação
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(20px)';
+        card.style.transition = 'all 0.6s cubic-bezier(0.4, 0, 0.2, 1)';
+        cardObserver.observe(card);
     });
 });
