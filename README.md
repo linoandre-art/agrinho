@@ -1,37 +1,53 @@
-# 🌾 Do Campo ao Copo: A Jornada do Malte em Guarapuava
+## 🚀 AgroFuturo: A Nova Era do Campo em Guarapuava
 
-Projeto desenvolvido para o **Concurso Agrinho 2026 – Categoria Programação**, na **Subcategoria 3: Programação Front-End – HTML, CSS e JavaScript**.
+[![Concurso Agrinho](https://img.shields.io/badge/Concurso-Agrinho%202026-brightgreen)](https://www.sistemafaep.org.br)
+[![Subcategoria](https://img.shields.io/badge/Subcategoria-Programação%20Front--End-blue)](https://github.com)
 
----
-
-## 🌱 Tema do Concurso
-
-Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente
+O **AgroFuturo** é uma plataforma interativa desenvolvida exclusivamente para o **Concurso Agrinho 2026 (Subcategoria 3: Programação Front-End)**. O projeto reimagina a conexão entre a produção agrícola tradicional de Guarapuava e as tecnologias de última geração, provando que a automação e a sustentabilidade são os pilares do ecossistema rural do amanhã.
 
 ---
 
-## 📌 Sobre o Projeto
+## ⚡ O Manifesto
 
-O projeto **"Do Campo ao Copo: A Jornada do Malte em Guarapuava"** apresenta, de forma visual, interativa e educativa, a trajetória da **cevada**, desde o cultivo no campo até sua transformação em **malte** e sua chegada à cidade.
-
-A proposta mostra como o **agronegócio**, a **tecnologia**, a **indústria**, a **sustentabilidade** e a **vida urbana** estão conectados em uma mesma cadeia produtiva regional.
-
-Por meio de textos, imagens, recursos interativos e dinâmicas visuais, o site busca aproximar o visitante da realidade do campo e destacar a importância de produzir com responsabilidade ambiental, valorizando a força agrícola de Guarapuava.
+> **Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente.** > *Mais do que produzir, o desafio da nossa geração é otimizar. A tecnologia não veio para substituir a natureza, mas para se tornar a maior aliada da sua preservação.*
 
 ---
 
-## 🎯 Objetivo
+## 🛰️ Visão Geral do Projeto
 
-O objetivo principal do projeto é conscientizar os visitantes sobre a importância da produção sustentável, mostrando que o desenvolvimento econômico pode caminhar junto com o cuidado com o meio ambiente.
+Diferente das abordagens comuns, o **AgroFuturo** utiliza a rica produção de cevada e malte de Guarapuava como pano de fundo para contar uma história de inovação. O site quebra o mito de que o agronegócio e a conservação ambiental são opostos. 
 
-O site busca explicar, de maneira simples e interativa, como a cadeia produtiva da cevada e do malte envolve diferentes etapas, pessoas, tecnologias e impactos positivos para a sociedade.
+Através de uma interface imersiva, o visitante viaja por um ecossistema digital que demonstra como a **Internet das Coisas (IoT)**, **drones de monitoramento** e a **agricultura de precisão** reduzem o desperdício de água, evitam o desgaste do solo e protegem a biodiversidade paranaense.
 
 ---
 
-## 🛠️ Tecnologias e Linguagens Utilizadas
+## 🎯 O Grande Objetivo
 
-O ecossistema do site foi desenvolvido utilizando puramente as tecnologias nativas da web, garantindo leveza, acessibilidade e carregamento rápido:
+O propósito central é mudar a percepção das novas gerações sobre a vida no campo. Queremos despertar o interesse científico e tecnológico dos estudantes, mostrando o ambiente agrícola como um polo de alta tecnologia e inovação. O objetivo do site é educar através da interatividade, engajando o usuário a entender que o futuro da segurança alimentar depende de algoritmos, sensores e, acima de tudo, do respeito aos limites ecológicos do nosso planeta.
 
-* **HTML5:** Estruturação semântica das seções, textos, formulários e integração de elementos.
-* **CSS3:** Identidade visual inspirada no agronegócio sustentável (tons de verde e terra) e design responsivo.
-* **JavaScript:** Lógica de alternância do tema visual dinâmico e validação interativa dos formulários.
+---
+
+## 💎 Funcionalidades de Destaque no Site
+
+* **Mapeamento Interativo:** Demonstração visual de como os dados saem dos sensores no campo e chegam até a tomada de decisão na agroindústria.
+* **Ecossistema Responsivo:** Design adaptável feito do zero para funcionar perfeitamente em smartphones, tablets ou computadores.
+* **Simulador de Impacto (Engine JS):** O usuário interage com elementos da página para entender a economia de recursos naturais gerada pelo Agro Tech.
+* **Smart Dark Mode:** Um sistema de troca de temas que adapta as cores do site para economizar energia e melhorar a leitura.
+
+---
+
+## 💻 Arquitetura Tecnológica e Limpa
+
+O projeto preza pelo desempenho extremo e acessibilidade, utilizando exclusivamente tecnologias nativas (*Vanilla Architecture*), sem o peso de frameworks externos:
+
+* **HTML5 Estrutural:** Tags semânticas para garantir que leitores de tela e motores de busca compreendam a hierarquia da informação de forma acessível.
+* **CSS3 Custom Properties:** Uso de variáveis globais para a transição suave de cores (Modo Claro/Escuro), layouts modernos baseados em *Flexbox* e *Grid*, além de animações fluidas baseadas em *Keyframes*.
+* **JavaScript Assíncrono:** Lógica pura para manipulação do DOM, controle de estados do formulário sem recarregamento de página e interações dinâmicas baseadas nas ações do usuário.
+
+---
+
+## 🛠️ Como Executar o Projeto Localmente
+
+1. Faça o clone deste repositório:
+   ```bash
+   git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
