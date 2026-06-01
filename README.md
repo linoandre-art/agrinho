@@ -1,4 +1,4 @@
-#🌾 Do Campo ao Copo: A Jornada do Malte em Guarapuava
+🌾 Do Campo ao Copo: A Jornada do Malte em Guarapuava
 Projeto desenvolvido para o Concurso Agrinho 2026 – Categoria Programação, na Subcategoria 3: Programação Front-End – HTML, CSS e JavaScript.
 
 🌱 Tema do Concurso
@@ -17,10 +17,19 @@ O objetivo principal do projeto é conscientizar os visitantes sobre a importân
 O site busca explicar, de maneira simples e interativa, como a cadeia produtiva da cevada e do malte envolve diferentes etapas, pessoas, tecnologias e impactos positivos para a sociedade.
 
 🛠️ Tecnologias e Linguagens Utilizadas
-O ecossistema do site foi desenvolvido utilizando puramente as tecnologias nativas da web (Vanilla Web), garantindo leveza, acessibilidade e carregamento rápido:
+O ecossistema do site foi desenvolvido utilizando puramente as tecnologias nativas da web, garantindo leveza, acessibilidade e carregamento rápido:
 
-HTML5 (Estruturação): Utilizado para a criação do esqueleto do site, organização semântica das seções, textos, formulários e integração dos elementos multimídia.
+HTML
 
-CSS3 (Estilização e Design): Responsável por toda a identidade visual do projeto, aplicando uma paleta de cores inspirada no agronegócio sustentável (tons de verde e terra), tipografia limpa, layouts responsivos para dispositivos móveis e animações fluidas de transição de tela.
 
-JavaScript (Interatividade): Implementado para dar vida ao site, controlando a lógica de alternância do tema visual dinâmico (Modo Claro/Escuro) e gerenciando a validação e o comportamento dos formulários de interação com o usuário sem a necessidade de recarregar a página.****
+Estruturação semântica das seções, textos, formulários e integração de elementos.
+CSS
+
+
+/* CSS3 */
+Identidade visual inspirada no agronegócio sustentável (tons de verde e terra) e design responsivo.
+JavaScript
+
+
+// JavaScript
+Lógica de alternância do tema visual dinâmico e validação interativa dos formulários.
