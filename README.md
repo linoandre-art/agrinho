@@ -1,53 +1,43 @@
-## 🚀 AgroFuturo: A Nova Era do Campo em Guarapuava
+# 🚀 Agro Forte e Futuro Sustentável: A Tecnologia no Campo
 
-[![Concurso Agrinho](https://img.shields.io/badge/Concurso-Agrinho%202026-brightgreen)](https://www.sistemafaep.org.br)
-[![Subcategoria](https://img.shields.io/badge/Subcategoria-Programação%20Front--End-blue)](https://github.com)
-
-O **AgroFuturo** é uma plataforma interativa desenvolvida exclusivamente para o **Concurso Agrinho 2026 (Subcategoria 3: Programação Front-End)**. O projeto reimagina a conexão entre a produção agrícola tradicional de Guarapuava e as tecnologias de última geração, provando que a automação e a sustentabilidade são os pilares do ecossistema rural do amanhã.
+Projeto desenvolvido para o **Concurso Agrinho 2026 – Categoria Programação**, na **Subcategoria 3: Programação Front-End – HTML, CSS e JavaScript**.
 
 ---
 
-## ⚡ O Manifesto
+## ⚡ Tema do Concurso
 
-> **Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente.** > *Mais do que produzir, o desafio da nossa geração é otimizar. A tecnologia não veio para substituir a natureza, mas para se tornar a maior aliada da sua preservação.*
-
----
-
-## 🛰️ Visão Geral do Projeto
-
-Diferente das abordagens comuns, o **AgroFuturo** utiliza a rica produção de cevada e malte de Guarapuava como pano de fundo para contar uma história de inovação. O site quebra o mito de que o agronegócio e a conservação ambiental são opostos. 
-
-Através de uma interface imersiva, o visitante viaja por um ecossistema digital que demonstra como a **Internet das Coisas (IoT)**, **drones de monitoramento** e a **agricultura de precisão** reduzem o desperdício de água, evitam o desgaste do solo e protegem a biodiversidade paranaense.
+Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente
 
 ---
 
-## 🎯 O Grande Objetivo
+## 📌 Sobre o Projeto
 
-O propósito central é mudar a percepção das novas gerações sobre a vida no campo. Queremos despertar o interesse científico e tecnológico dos estudantes, mostrando o ambiente agrícola como um polo de alta tecnologia e inovação. O objetivo do site é educar através da interatividade, engajando o usuário a entender que o futuro da segurança alimentar depende de algoritmos, sensores e, acima de tudo, do respeito aos limites ecológicos do nosso planeta.
-
----
-
-## 💎 Funcionalidades de Destaque no Site
-
-* **Mapeamento Interativo:** Demonstração visual de como os dados saem dos sensores no campo e chegam até a tomada de decisão na agroindústria.
-* **Ecossistema Responsivo:** Design adaptável feito do zero para funcionar perfeitamente em smartphones, tablets ou computadores.
-* **Simulador de Impacto (Engine JS):** O usuário interage com elementos da página para entender a economia de recursos naturais gerada pelo Agro Tech.
-* **Smart Dark Mode:** Um sistema de troca de temas que adapta as cores do site para economizar energia e melhorar a leitura.
+O projeto é uma plataforma interativa criada para mostrar como o agronegócio moderno e a preservação do meio ambiente caminham juntos. O site utiliza uma interface simples, bonita e acessível para explicar que produzir alimentos e proteger a natureza não são caminhos opostos, mas sim uma parceria necessária para o nosso futuro.
 
 ---
 
-## 💻 Arquitetura Tecnológica e Limpa
+## 🛰️ Como a Tecnologia Afeta o Agro? (De Forma Simples)
 
-O projeto preza pelo desempenho extremo e acessibilidade, utilizando exclusivamente tecnologias nativas (*Vanilla Architecture*), sem o peso de frameworks externos:
+A tecnologia mudou a forma como o produtor cuida da terra. Hoje, o "Agro Forte" não depende de adivinhação, mas sim de dados reais. Veja como a tecnologia ajuda o campo de maneira prática:
 
-* **HTML5 Estrutural:** Tags semânticas para garantir que leitores de tela e motores de busca compreendam a hierarquia da informação de forma acessível.
-* **CSS3 Custom Properties:** Uso de variáveis globais para a transição suave de cores (Modo Claro/Escuro), layouts modernos baseados em *Flexbox* e *Grid*, além de animações fluidas baseadas em *Keyframes*.
-* **JavaScript Assíncrono:** Lógica pura para manipulação do DOM, controle de estados do formulário sem recarregamento de página e interações dinâmicas baseadas nas ações do usuário.
+* **Economia de Água:** Sensores colocados no solo avisam o momento exato em que a planta precisa de água, evitando o desperdício na irrigação.
+* **Menos Produtos Químicos:** Drones sobrevoam as plantações e tiram fotos em alta resolução. Com isso, o produtor consegue ver exatamente qual plantinha está doente e aplica o tratamento apenas nela, e não no campo inteiro.
+* **Proteção do Solo:** Tratores guiados por GPS andam no caminho perfeito, evitando compactar a terra desnecessariamente e prevenindo a erosão.
+
+> **Resumo:** A tecnologia faz o campo produzir **mais alimentos** utilizando **menos recursos naturais**. Isso é inteligência e sustentabilidade.
 
 ---
 
-## 🛠️ Como Executar o Projeto Localmente
+## 🎯 Objetivo
 
-1. Faça o clone deste repositório:
-   ```bash
-   git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+O grande objetivo deste site é educar e conscientizar as novas gerações. Queremos mostrar aos estudantes e visitantes que o futuro do planeta depende de um agro tecnológico e responsável, inspirando os jovens a enxergarem a tecnologia como a maior ferramenta de preservação ambiental que temos hoje.
+
+---
+
+## 💻 Tecnologias e Linguagens Utilizadas
+
+O ecossistema do site foi desenvolvido utilizando puramente as tecnologias nativas da web, garantindo leveza, acessibilidade e carregamento rápido:
+
+* **HTML5:** Organização semântica de todos os textos, títulos e seções do site.
+* **CSS3:** Visual moderno com cores focadas na natureza (tons de verde) e design feito para funcionar bem em celulares e computadores.
+* **JavaScript:** Lógica simples para criar a interatividade da página, como o botão de mudar o tema visual (Modo Claro/Escuro).
