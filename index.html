@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Agro Forte e Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <div class="container animate-fadeIn">
+            <div class="logo">Agrinho<span>2026</span></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#proposito">Propósito</a></li>
+                    <li><a href="#pilares">Pilares</a></li>
+                    <li><a href="#contato">Participe</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" class="btn-theme" aria-label="Alternar tema visual">🌱 Mudar Tom</button>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content animate-slideUp">
+                <h1>Agro Forte e Futuro Sustentável</h1>
+                <p>Cultivando o conhecimento hoje para colher um amanhã mais verde, tecnológico e em harmonia com a natureza.</p>
+                <a href="#proposito" class="btn-primary">Descubra o Projeto</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="proposito" class="section-padding">
+        <div class="container">
+            <h2>O Que é o Agrinho 2026?</h2>
+            <p class="section-description">É uma iniciativa que une educação, criatividade e consciência ambiental. Nosso objetivo é mostrar como a tecnologia no campo e as práticas agrícolas responsáveis caminham lado a lado para garantir a segurança alimentar do planeta e a preservação dos nossos recursos naturais.</p>
+        </div>
+    </section>
+
+    <section id="pilares" class="section-padding bg-light">
+        <div class="container">
+            <h2>Nossos Pilares</h2>
+            <div class="grid-services">
+                <div class="card">
+                    <div class="icon">🚜</div>
+                    <h3>Inovação no Campo</h3>
+                    <p>O uso de drones, sensores e agricultura de precisão para produzir mais gastando menos recursos.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">💧</div>
+                    <h3>Preservação</h3>
+                    <p>Cuidado com a água, proteção das matas ciliares e manejo correto do solo para evitar a erosão.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">📚</div>
+                    <h3>Educação Ambiental</h3>
+                    <p>Levar o conhecimento das práticas sustentáveis da escola para o campo e do campo para a cidade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section-padding">
+        <div class="container">
+            <h2>Faça Parte Desse Futuro</h2>
+            <form id="contact-form" class="form-container">
+                <div class="form-group">
+                    <label for="name">Nome Completo:</label>
+                    <input type="text" id="name" required placeholder="Digite seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail de Contato:</label>
+                    <input type="email" id="email" required placeholder="seu.email@escola.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Compartilhe sua ideia sustentável:</label>
+                    <textarea id="message" rows="5" required placeholder="Como você acha que podemos ajudar o meio ambiente e o agro?"></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Enviar Ideia</button>
+            </form>
+            <div id="form-response" class="hidden"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Agrinho. Desenvolvido para um Futuro Sustentável.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
