@@ -1,4 +1,6 @@
-# 🚀 Agro Forte e Futuro Sustentável: A Tecnologia no Campo
+# 🌾 AgroTec `Sustentável`
+
+> **AgroTec** é uma plataforma que une a ciência da agronomia às inovações tecnológicas para criar soluções de cultivo mais eficientes e ecológicas.
 
 Projeto desenvolvido para o **Concurso Agrinho 2026 – Categoria Programação**, na **Subcategoria 3: Programação Front-End – HTML, CSS e JavaScript**.
 
